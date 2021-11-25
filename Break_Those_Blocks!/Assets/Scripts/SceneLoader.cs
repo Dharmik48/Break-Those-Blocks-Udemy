@@ -15,12 +15,12 @@ public class SceneLoader : MonoBehaviour
     else
     {
       SceneManager.LoadScene(currentSceneIndex + 1);
-
     }
   }
 
   public void LoadStartScreen()
   {
+    FindObjectOfType<GameSession>().ResetGame();
     SceneManager.LoadScene(0);
   }
 
