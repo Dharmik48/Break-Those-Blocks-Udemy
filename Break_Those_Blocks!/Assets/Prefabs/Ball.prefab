@@ -100,12 +100,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paddle1: {fileID: 0}
   pushX: 2
-  pushY: 15
+  pushY: 12
   ballSounds:
   - {fileID: 8300000, guid: ba5072e47e3e99c4dafb6911902d945f, type: 3}
   - {fileID: 8300000, guid: 1af0413943ba0714e977c868fcfb92bc, type: 3}
   - {fileID: 8300000, guid: 12712328325fad149b082bcb93e5fd9e, type: 3}
   - {fileID: 8300000, guid: a7770f1ab01384644a75866ad0a286b4, type: 3}
+  randomFactor: 0.5
 --- !u!58 &3446115392995024687
 CircleCollider2D:
   m_ObjectHideFlags: 0
